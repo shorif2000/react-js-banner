@@ -7,8 +7,7 @@
     "react": "^16.0.0"
   },
   "dependencies": {
-    "react": "^16.0.0",
-    "webpack": "^2.6.1"
+    "react": "^16.11.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,20 +19,35 @@
     "email": "jciccio@gmail.com"
   },
   "devDependencies": {
-    "babel-cli": "^6.2.0",
-    "babel-core": "^6.2.1",
-    "babel-eslint": "^6.1.2",
-    "babel-loader": "^6.2.0",
-    "babel-preset-react": "^6.3.13",
-    "babel-preset-stage-1": "^6.1.18",
-    "babel-register": "^6.3.13",
-    "babel-runtime": "^6.3.19",
-    "babel-preset-env": "^1.5.1",
-    "style-loader": "^0.21.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime-corejs2": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.0",
     "css-loader": "^0.28.11",
-    "babel-polyfill": "^6.26.0",
+    "react-dom": "^16.3.2",
     "react-transition-group": "^4.3.0",
-    "react-dom": "^16.3.2"
+    "style-loader": "^0.21.0",
+    "webpack": "^4.41.2"
   },
   "repository": {
     "type": "git",
