@@ -1,7 +1,7 @@
 var path = require('path');
 module.exports = {
     mode: 'development',
-  entry: './src/index.js',
+  entry: ['@babel/polyfill','./src/index.js'],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
@@ -25,7 +25,14 @@ module.exports = {
         include: path.resolve(__dirname, 'src'),
         exclude: /(node_modules|bower_components|build)/,
         use:['style-loader','css-loader']
-      }
+      },
+      {
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      use: [
+        'url-loader?limit=10000',
+        'img-loader'
+      ]
+    }
     ]
   },
   externals: {
